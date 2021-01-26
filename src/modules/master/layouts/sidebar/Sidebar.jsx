@@ -33,6 +33,25 @@ const Sidebar = () => {
             <div className="sidebar-heading">
                 Menus
             </div>
+            <li className="nav-item">
+                <button className="btn btn-link nav-link collapsed" href="#" data-toggle="collapse" data-target="#productsCollapse"
+                    aria-expanded="true" aria-controls="productsCollapse">
+                    <i className="far fa-list-alt"></i> {" "}
+                    <span>Products</span>
+                </button>
+                <div id="productsCollapse" className="collapse in show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div className="bg-white py-2 collapse-inner rounded">
+                        <h6 className="collapse-header">Manage Products:</h6>
+                        <Link className="collapse-item" to="/products">
+                            <i className="far fa-list-alt"></i> {" "} Product List
+                        </Link>
+
+                        <Link className="collapse-item" to="/products/create">
+                            <i className="fas fa-plus-circle"></i> {" "} New Product
+                        </Link>
+                    </div>
+                </div>
+            </li>
 
             {/* <!-- Nav Item - Pages Collapse Menu --> */}
            <hr className="sidebar-divider d-none d-md-block" />
