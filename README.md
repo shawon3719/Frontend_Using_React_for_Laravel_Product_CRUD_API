@@ -23,6 +23,23 @@ A Complete CRUD Application using React, Redux, Thunk, Jwt Auth.
 1. [x] Login to User Panel
 
 
+##### Product Module
+1. [x] Product List View
+    1. [x] Product Pagination
+    1. [x] Product Searching
+    1. [x] Product Detail View/Less Show in List
+1. [x] Product Details
+    1. [x] Backup Image while loading fail
+1. [x] Create Product
+    1. [x] Add HTML Text Editor
+    1. [x] Image Upload System
+    1. [x] Image Preview System
+    1. [x] Frontend/Server Validation
+1. [x] Edit Product
+    1. [x] Same as Create
+1. [x] Delete Product
+    1. [x] Sweet Alert Integrate
+
 
 ### How to Run:
 1. Clone Project - 
@@ -43,6 +60,18 @@ npm start
 http://127.0.0.1:3000 
 7. You'll see a Default Product Store Panel.
 8. Then Click on top right bar login section to go to login
+
+### Procedure
+1. First Page is Public and anyone can access all product information
+1. Click  `Login Now & Manage Products` Button at top right corner.
+1. In Login Page, you can click on `Fil with Admin Credential` to auto generate login data
+1. Click `Login` and you're entered in Dashboard
+1. In Dashboard, you can see a Product count
+1. In Sidebar Click on `Product List ` to see all products uploaded by this account.
+1. Create Product
+1. Edit Product
+1. View Product Detail
+1. Delete Product
 
 #### Issues
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 import { StripHTMLText } from '../../../master/utils/StringHelper';
 import ProductDeleteModal from '../delete/ProductDelete';
+import ReactQuill from 'react-quill';
 const currencyFormatter = require('currency-formatter');
 
 const ProductShortInfo = (props) => {
@@ -40,7 +41,7 @@ const ProductShortInfo = (props) => {
                 {
                     !isShortText &&
                     <div>
-                        {StripHTMLText(product.description, null)}...
+                        <ReactQuill value={product.description} theme="bubble" readOnly />
                         <br />
                         <button className="btn btn-link btn-sm" onClick={() => setIsShortText(true)}>
                             View Less <i className="fa fa-chevron-up"></i>

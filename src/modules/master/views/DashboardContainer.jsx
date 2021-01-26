@@ -18,23 +18,23 @@ const DashboardContainer = () => {
                 <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
             </div>
             <div className="row">
-                <div className="col-xl-3 col-md-4 mb-4">
-                    <div className="card border-left-primary shadow h-100 py-2">
+                <div className="col-xl-3 col-md-4 mb-4 ">
+                    <div className="card border-left-primary shadow h-100 py-2 bg-warning">
                         <div className="card-body">
                             <div className="row no-gutters align-items-center">
-                                <div className="col mr-2">
-                                    <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                <div className="col mr-2 ">
+                                    <div className="text-xs font-weight-bold text-dark text-uppercase mb-1">
                                         Total Products
                                     </div>
-                                    <div className="h5 mb-0 font-weight-bold text-gray-800">
+                                    <div className="h5 mb-0 font-weight-bold text-dark">
                                         {products != null && products.total != null ? products.total : 0} Pcs
                                     </div>
                                 </div>
                                 <div className="col-auto">
-                                    <i className="fas fa-calculator fa-3x text-gray-300"></i>
+                                    <i className="fas fa-calculator fa-3x text-dark"></i>
                                 </div>
                                 <div className="col-12 mt-3">
-                                    <Link to="/products" className="btn btn-sm btn-outline-info">
+                                    <Link to="/products" className="btn btn-sm btn-outline-primary">
                                         Manage Products <i className="fa fa-cog"></i>
                                     </Link>
                                 </div>
@@ -43,15 +43,15 @@ const DashboardContainer = () => {
                     </div>
                 </div>
                 <div className="col-xl-3 col-md-4 mb-4">
-                    <div className="card border-left-primary shadow h-100 py-2">
+                    <div className="card border-left-primary shadow h-100 py-2 bg-success">
                         <div className="card-body">
                             <div className="row no-gutters align-items-center">
                                 <div className="col mr-2">
-                                    <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    <div className="text-xs font-weight-bold text-white text-uppercase mb-1">
                                         Create New
                                     </div>
                                     <div className="col-12 mt-3">
-                                        <Link to="/products/create" className="btn btn-sm btn-outline-info">
+                                        <Link to="/products/create" className="btn btn-sm btn-outline-primary">
                                             Add Product <i className="fa fa-plus-circle"></i>
                                         </Link>
                                     </div>

@@ -115,15 +115,15 @@ const ProductCreate = () => {
                     }
                 </Form.Group>
 
-                {!isLoading && <Button variant="primary" type="submit"><i className="fa fa-check"></i>  Save Product </Button>}
+                {!isLoading && <Button className="btn-sm" variant="primary" type="submit"><i className="fa fa-check"></i>  Save Product </Button>}
 
                 {
                     isLoading &&
-                    <Button variant="primary" type="button" disabled>
+                    <Button className="btn-sm" variant="primary" type="button" disabled>
                         Saving Product... {"  "} <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                     </Button>
                 }
-                <Link className="btn btn-secondary ml-2" to="/products">
+                <Link className="btn btn-sm btn-secondary ml-2" to="/products">
                     <i className="fa fa-times"></i> Cancel
                 </Link>
             </Form>

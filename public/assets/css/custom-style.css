@@ -98,8 +98,29 @@
 .product-search-input {
     width: 300px;
 }
+.swal-overlay--show-modal .swal-modal {
+    background: #ffdec1;
+}
 
+.swal-title {
+    color: black;
+    padding: 0;
+}
 
+.swal-text {
+    color: black;
+}
+
+.swal-modal {
+    width: 400px;
+    height: 310px;
+}
+.swal-button--danger {
+    background-color: #9a0701;
+}
+.swal-button {
+    padding: 7px 20px;
+}
 /********************************************************************
                         Footer
 /********************************************************************/

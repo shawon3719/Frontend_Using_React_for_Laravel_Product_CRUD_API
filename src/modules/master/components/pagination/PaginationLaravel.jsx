@@ -20,8 +20,8 @@ const PaginationLaravel = (props) => {
                 <div className="d-flex">
                     <div className="mx-auto">
                         <div className='row'>
-                            <div className="col-6">
-                                Products - {data.from} to {data.from + data.per_page}{' '} | Total {data.total < data.per_page ? data.total : data.per_page} {' '} | Out of {data.total}
+                            <div className="col-12">
+                                Showing Products - {data.from} to {data.from + data.per_page}{' '} | Page {data.total < data.per_page ? data.total : data.per_page} {' '},  Out of {data.total}
                             </div>
                             {
                                 data.total > limit &&

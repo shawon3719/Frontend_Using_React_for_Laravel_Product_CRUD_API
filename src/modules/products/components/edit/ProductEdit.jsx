@@ -125,15 +125,15 @@ const ProductEdit = ({ id }) => {
                         }
                     </Form.Group>
 
-                    {!editing && <Button variant="primary" type="submit"> <i className="fa fa-check"></i> Save Product </Button>}
+                    {!editing && <Button className="btn-sm" variant="primary" type="submit"> <i className="fa fa-check"></i> Save Product </Button>}
 
                     {
                         editing &&
-                        <Button variant="primary" type="button" disabled>
+                        <Button variant="primary" className="btn-sm" type="button" disabled>
                             Saving Product... {"  "} <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                         </Button>
                     }
-                    <Link className="btn btn-secondary ml-2" to="/products">
+                    <Link className="btn btn-sm btn-secondary ml-2" to="/products">
                         <i className="fa fa-times"></i> Cancel
                     </Link>
                 </Form>
