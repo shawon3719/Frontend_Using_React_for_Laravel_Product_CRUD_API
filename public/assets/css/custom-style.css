@@ -1,0 +1,105 @@
+/********************************************************************
+                        Master Styles
+/********************************************************************/
+
+
+/********************************************************************
+                        Header
+/********************************************************************/
+
+
+/********************************************************************
+                        Page Content
+/********************************************************************/
+
+.img-product {
+    width: 50px;
+}
+
+.img-product-view {
+    width: 100%;
+    padding: 30px 0px 10px 0px;
+}
+
+.product-image-area {
+    height: 160px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-img-frontend {
+    width: 140px;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.product-title-frontend {
+    height: 34px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-img-frontend:hover {
+    width: 170px;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #919E39;
+    font-family: math;
+}
+
+.td-sl {
+    width: 5%;
+}
+
+.td-product-title {
+    width: 25%;
+}
+
+.td-action {
+    width: 12%;
+}
+
+.td-description {
+    width: 25%;
+}
+
+.td-upload-info {
+    width: 25%;
+}
+
+.imgPreview {
+    margin-top: 5px;
+    width: 150px;
+    min-height: 100px;
+    border: 1px dotted #375dcd;
+}
+
+.preview-delete-icon {
+    position: relative;
+    right: 12px;
+    bottom: -25px;
+}
+
+.imgPreview i {
+    float: right;
+    margin-bottom: 0px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.imgPreview img {
+    width: 145px;
+}
+
+.product-search-input {
+    width: 300px;
+}
+
+
+/********************************************************************
+                        Footer
+/********************************************************************/
